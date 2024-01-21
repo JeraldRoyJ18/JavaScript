@@ -26,5 +26,11 @@ const justUser = {
 justUser.greeting = function(){
     console.log("hello , good afternoon!");
 }
-console.log(justUser.greeting)
-console.log(justUser.greeting());
+// console.log(justUser.greeting)
+// console.log(justUser.greeting());
+
+// object using ------------singleton------------
+
+const tinderUser = new Object()
+tinderUser.id = "123abc"
+tinderUser.name="jerald"
